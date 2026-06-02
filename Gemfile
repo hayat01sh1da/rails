@@ -29,7 +29,7 @@ gem "thruster", require: false
 # require: false so bcrypt and argon2 are loaded only when has_secure_password is used.
 # This is to avoid Active Model (and by extension the entire framework)
 # being dependent on binary libraries.
-gem "bcrypt", "~> 3.1.11", require: false
+gem "bcrypt", "~> 3.1.22", require: false
 gem "argon2", "~> 2.3.2", require: false
 
 # This needs to be with require false to avoid it being automatically loaded by
@@ -37,7 +37,7 @@ gem "argon2", "~> 2.3.2", require: false
 gem "terser", ">= 1.1.4", require: false
 
 # Explicitly avoid 1.x that doesn't support Ruby 2.4+
-gem "json", ">= 2.0.0", "!=2.7.0"
+gem "json", ">= 2.0.0", "!= 2.7.0"
 
 # Workaround until all supported Ruby versions ship with uri version 0.13.1 or higher.
 gem "uri", ">= 0.13.1", require: false
