@@ -34,7 +34,7 @@
     "globals": "^14.0.0",
     "mock-socket": "^2.0.0",
     "qunit": "^2.20.0",
-    "rollup": "^2.35.1",
+    "rollup": "^2.80.0",
     "rollup-plugin-terser": "^7.0.2",
     "web-test-runner-qunit": "^2.0.0"
   },
